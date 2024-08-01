@@ -14,7 +14,7 @@ public class PlayMusic {
         try {
             File musicPath = new File(musicLocation);
             
-            if (musicPath.exists()){
+            if (true){
                 AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath);
                 Clip clip = AudioSystem.getClip();
                 clip.open(audioInput);

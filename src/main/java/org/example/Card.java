@@ -20,4 +20,9 @@ public class Card {
     public int getValue() {
         return rank.getValue();
     }
+
+    @Override
+    public String toString() {
+        return this.rank + " of " + this.suit;
+    }
 }
